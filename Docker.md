@@ -1,5 +1,13 @@
- 1. create VM 
- 2. Install the docker ( yum install docker )
+ ## Docker First Setup
+ 
+ [System Requirment](https://docs.docker.com/get-docker/)
+
+ ## Installation Steps
+     - Provision the VM with the required resources (OS Platform)  
+     - Install the docker 
+               * [Mac](https://docs.docker.com/desktop/install/mac-install/)
+               * [Windows](https://docs.docker.com/desktop/install/windows-install/)
+               * [Linux](https://docs.docker.com/desktop/install/linux-install/)
  3. start the docker ( systemctl start docker )
  4. now create the one file with the name of daemon.json at /etc/docker/ location with below contet 
  
