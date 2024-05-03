@@ -30,7 +30,7 @@ Thanks for stopping by! Let's connect and explore the fascinating world of Jfrog
         # sudo apt install jfrog-artifactory-jcr-[RELEASE].deb -y
     * Command to Start the Artifactory Service
         # sudo systemctl start artifactory
-## [Jfrog CLI CheatSheet] (https://github.com/ShailAdmin/DevopsDocs/blob/master/JFrogCLI_CheatSheet-v2.pdf)
+    [Jfrog CLI CheatSheet] (https://github.com/ShailAdmin/DevopsDocs/blob/master/JFrogCLI_CheatSheet-v2.pdf)
 
 
     
