@@ -17,7 +17,7 @@
     * Username : admin
     * Password : password
 
-Thanks for stopping by! Let's connect and explore the fascinating world of Jfrog Artifactory together. 🚀
+[Jfrog CLI CheatSheet](https://github.com/ShailAdmin/DevopsDocs/blob/master/JFrogCLI_CheatSheet-v2.pdf)
 
 ## Note :
     * Command to Update the core component on RHEL 6/7/8/9
@@ -31,6 +31,9 @@ Thanks for stopping by! Let's connect and explore the fascinating world of Jfrog
     * Command to Start the Artifactory Service
         # sudo systemctl start artifactory
     [Jfrog CLI CheatSheet](https://github.com/ShailAdmin/DevopsDocs/blob/master/JFrogCLI_CheatSheet-v2.pdf)
+
+Thanks for stopping by! Let's connect and explore the fascinating world of Jfrog Artifactory together. 🚀
+
 
 
     
