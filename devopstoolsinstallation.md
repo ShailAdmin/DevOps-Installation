@@ -1,30 +1,30 @@
-DevOps Tools Installation
+List of DevOps Tools
  
 	Git
 	Maven
 	Jenkins
 	Docker
-	Kubernetics
+	Kubernetes
 	Ansible
-	Teraform
+	Terraform
 	Grafana
 	ELK
 	
-Git Installation : -
+Git Installation: -
 
-         Step-1 Create AWS Machine
+         Step-1 Create an AWS Machine
 	 Step-2 yum install git
 	 step-3 git --version
 		 
-Maven Installation : -
+Maven Installation: -
 
-         Step-1 Create AWS machine
+         Step-1 Create an AWS machine
 	 step-2 yum install maven
 	 Step-3 maven --version
 		 
-Jenkins Installation : -
+Jenkins Installation: -
 
-		 Step-1 Creat AWS Machine
+		 Step-1 Create an AWS Machine
 		 Step-2 
 		  
 		      wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
@@ -37,9 +37,9 @@ Jenkins Installation : -
 		      systemctl status jenkins
 		 Step-3 rpm -qa | grep jenkins
 		 
-Docker Installation : -
+Docker Installation: -
 
-         Step-1 Create AWS Machine
+         Step-1 Create an AWS Machine
 	 Step-2 Docker installation 
 		 
 		       
@@ -50,10 +50,10 @@ Docker Installation : -
 		yum install docker-ce docker-ce-cli containerd.io -y
 	 Step-3 docker --version
 		 
-Kubernetics Installation : -
+Kubernetes Installation: -
 
-         Step-1 Creat AWS Machine
-	 Step-2 Kubernetic installation
+         Step-1 Create an AWS Machine
+	 Step-2 Kubernetes installation
 		     Kubctl installation: -
 			 
 		      curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
@@ -61,7 +61,7 @@ Kubernetics Installation : -
                       echo "$(<kubectl.sha256) kubectl" | sha256sum --check
                       install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 		      kubectl version --client
-		 kop Installation : -
+		 kops Installation: -
 		  curl -LO https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
 		  chmod +x kops-linux-amd64
 		  mv kops-linux-amd64 /usr/local/bin/kops
@@ -69,16 +69,16 @@ Kubernetics Installation : -
 			  
 Ansible Installation : -
 
-         Step-1 Create AWS Machine
+         Step-1 Create an AWS Machine
 	 Step-2 
 	 
 	      upgrade python to python38
 	      pip38 install ansible
-	      ansibel --version
+	      ansible --version
 			  
 Teraform Installation : -
 
-         Step-1 Create AWS Machine
+         Step-1 Create an AWS Machine
 	 step-2 
 	        yum install -y yum-utils
 		yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
